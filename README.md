@@ -27,21 +27,26 @@ sudo apt install nodejs npm
 sudo pacman -Syu nodejs npm
 ```
 
-- Clone the repository:
+### 2. Clone the repository:
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/stupid-chatgpt-app.git
 cd stupid-chatgpt-app
 ```
-- Install dependencies:
+### 3. Install dependencies:
 
 ```bash
 npm install
 ```
+### 4. Run app:
+
+```bash
+npm start
+```
 
 ## Optional: Package into a Standalone App
 
-1. Install Electron Packager:
+- Install Electron Packager:
 ```bash
 npm install --save-dev electron-packager
 npm run package
