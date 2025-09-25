@@ -1,0 +1,16 @@
+{
+  "name": "stupid-chatgpt-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "SenithuMadiv",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . stupid-chatgpt-app --platform=linux --arch=x64 --overwrite"
+  },
+  "dependencies": {
+    "electron": "^26.0.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^17.1.2"
+  }
+}
