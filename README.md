@@ -30,7 +30,7 @@ sudo pacman -Syu nodejs npm
 ### 2. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/stupid-chatgpt-app.git
+git clone https://github.com/senithumadiv/stupid-chatgpt-app.git
 cd stupid-chatgpt-app
 ```
 ### 3. Install dependencies:
